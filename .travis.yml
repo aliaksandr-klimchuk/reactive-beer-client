@@ -1,0 +1,19 @@
+language: java
+
+sudo: false
+
+jdk:
+  - openjdk11
+
+addons:
+  sonarcloud:
+    organization: "sonarcloud_Crazy-pro_reactive-beer-client"
+    token:
+      secure: "c3b0b1243d4a1ba44d2a7115fbdafde26ddd24cf"
+
+script:
+  - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+  - sonar-scanner
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
