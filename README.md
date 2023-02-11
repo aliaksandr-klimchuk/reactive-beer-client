@@ -17,9 +17,9 @@ Simple Web Application written to understand Spring WebFlux Framework concept.
   - Hibernate.
 - IDE: IntelliJ IDEA;
 - Tools: JUnit 5, Mockito, Lombok, Postman, Maven, Git, HTTPs, XML, YAML, JSON;
-- Others: GitHub, TravisCI, CodeCov, SonarLint, SonarCloud.
+- Others: GitHub, CircleCI, CodeCov, SonarLint, SonarCloud.
 
-[![TravisCI](https://travis-ci.com/gh/Crazy-pro/reactive-beer-client.svg?style=svg)](https://app.travis-ci.com/gh/Crazy-pro/reactive-beer-client)
+[![CircleCI](https://circleci.com/gh/Crazy-pro/reactive-beer-client.svg?style=svg)](https://app.circleci.com/gh/Crazy-pro/reactive-beer-client)
 [![CodeCov](https://codecov.io/gh/Crazy-pro/reactive-beer-client/branch/master/graph/badge.svg)](https://codecov.io/gh/Crazy-pro/reactive-beer-client)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=Crazy-pro_reactive-beer-client&metric=coverage)](https://sonarcloud.io/summary/new_code?id=Crazy-pro_reactive-beer-client)
 

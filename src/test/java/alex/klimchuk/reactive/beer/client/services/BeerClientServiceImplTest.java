@@ -88,13 +88,13 @@ public class BeerClientServiceImplTest {
                 .subscribe(beerDto -> {
                     System.out.println(beerDto.getBeerName());
                     beerName.set(beerDto.getBeerName());
-                    assertThat(beerDto.getBeerName()).isEqualTo("Mango Bobs");
+                    assertThat(beerDto.getBeerName()).isEqualTo("Really Good Beer");
                     countDownLatch.countDown();
                 });
 
         countDownLatch.await();
 
-        assertThat(beerName.get()).isEqualTo("Mango Bobs");
+        assertThat(beerName.get()).isEqualTo("Really Good Beer");
     }
 
     @Test
