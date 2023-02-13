@@ -58,7 +58,7 @@ public class BeerClientServiceImplTest {
         BeerPagedList pagedList = beerPagedListMono.block();
 
         assertThat(pagedList).isNotNull();
-        assertThat(pagedList.getContent().size()).isEqualTo(0);
+        assertThat(pagedList.getContent().size()).isZero();
     }
 
     @Test
