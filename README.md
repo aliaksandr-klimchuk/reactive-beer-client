@@ -16,6 +16,7 @@ Simple Web Application written to understand Spring WebFlux Framework concept.
   - Spring (Boot, Core, Data, WebFlux, Test);
   - Hibernate.
 - IDE: IntelliJ IDEA;
+- Database: H2;
 - Tools: JUnit 5, Mockito, Lombok, Postman, Maven, Git, HTTPs, XML, YAML, JSON;
 - Others: GitHub, CircleCI, CodeCov, SonarLint, SonarCloud.
 
